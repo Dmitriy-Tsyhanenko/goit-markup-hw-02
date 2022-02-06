@@ -12,6 +12,10 @@ body {
   background: var(--text-and-background-color);
 }
 
+.active-page {
+  color: var(--accent-collor);
+}
+
 .list {
   list-style: none;
 }
@@ -206,7 +210,7 @@ top: 80px; */
 }
 .contact:hover,
 .contact:focus {
-  color: var(-accent-collor);
+  color: var(--accent-collor);
 }
 
 .сontact-information {
