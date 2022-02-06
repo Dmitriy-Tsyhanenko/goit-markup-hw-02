@@ -12,10 +12,6 @@ body {
   background: var(--text-and-background-color);
 }
 
-.active-page {
-  color: var(--accent-collor);
-}
-
 .list {
   list-style: none;
 }
@@ -56,6 +52,9 @@ body {
 
 .nav-list-link:hover,
 .nav-list-link:focus {
+  color: var(--accent-collor);
+}
+.active-page {
   color: var(--accent-collor);
 }
 
