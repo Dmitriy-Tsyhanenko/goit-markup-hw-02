@@ -20,10 +20,8 @@ body {
   text-decoration: none;
 }
 
-/* Шапка сайта */
+/* ШАПКА САЙТА*/
 
-.header {
-}
 .logo {
   font-family: var(--secondary-font-family);
   font-weight: 700;
@@ -64,19 +62,16 @@ body {
   letter-spacing: 0.02em;
   color: var(--secondary-text-color-theme-light);
 }
-
 .contact-section:hover,
 .contact-section:focus {
   color: var(--accent-collor);
 }
 
-/* Конец шапки сайта */
-/* Начало секции Герой */
+/* КОНЕЦ СЕКЦИИ ШАПКИ САЙТА, НАЧАЛО СЕКЦИИ ГЕРОЙ */
 
 .hero {
   background: #2f303a;
 }
-
 .title {
   font-weight: 900;
   font-size: 44px;
@@ -102,14 +97,12 @@ body {
   color: var(--text-and-background-color);
   background: var(--accent-collor);
 }
-
 .modal-btn:hover,
 .modal-btn:focus {
   background: #188ce8;
 }
 
-/* Конец секции герой */
-/* Начало секции чем мы занимаемся */
+/* КОНЕЦ СЕКЦИИ ГЕРОЙ, НАЧАЛО СЕКЦИИ ЧЕМ МЫ ЗАНИМАЕМСЯ*/
 
 .caption {
   font-weight: 700;
@@ -133,13 +126,11 @@ body {
   letter-spacing: 0.03em;
 }
 
-/* Конец секци чем мы занимаемся  */
-/* Начало секции наша команда */
+/* КОНЕЦ СЕКЦИИ ЧЕМ МЫ ЗАНИМАЕМСЯ, НАЧАЛО СЕКЦИИ НАША КОМАНДА  */
 
 .profession {
   background: #f5f4fa;
 }
-
 .team {
   font-weight: 700;
   font-size: 36px;
@@ -163,13 +154,11 @@ body {
   color: var(--secondary-text-color-theme-light);
 }
 
-/* Конец секции наша команда */
-/* Начало подвала */
+/* КОНЕЦ СЕКЦИИ НАША КОМАНДА, НАЧАЛО СЕКЦИИ ПОДВАЛ */
 
 .footer {
   background: #2f303a;
 }
-
 .contact {
   font-style: normal;
   font-weight: normal;
@@ -196,13 +185,8 @@ body {
   color: var(--accent-collor);
 }
 
-/* Конец подвала */
-/* Начало секции портфолио */
+/* КОНЕЦ СЕКЦИИ ПОДВАЛ, НАЧАЛО СЕКЦИИ ПОРТФОЛИО, КНОПКИ*/
 
-.portfolio-section {
-}
-
-/* Оформление кнопок */
 .button {
   font-family: var(--primary-font-family);
   font-weight: 500;
@@ -216,7 +200,6 @@ body {
   color: var(--text-and-background-color);
   background: var(--accent-collor);
 }
-
 .button:hover,
 .button:focus {
   background: #188ce8;
@@ -234,14 +217,12 @@ body {
   letter-spacing: 0.03em;
   background: #f5f4fa;
 }
-
 .button-list:hover,
 .button-list:focus {
   color: var(--accent-collor);
 }
 
-/* Конец оформления кнопок */
-/* Начало секции примеры работ */
+/* КОНЕЦ СЕКЦИИ КНОПКИ, НАЧАЛО СЕКЦИИ ПРИМЕРЫ РАБОТ */
 
 .subtitle {
   font-weight: 700;
@@ -258,4 +239,4 @@ body {
   color: var(--secondary-text-color-theme-light);
 }
 
-/* Конец секции примеры работ */
+/* КОНЕЦ СЕКЦИИ ПРИМЕРЫ РАБОТ, КОНЕЦ СЕКЦИИ ПОРТФОЛИО */
