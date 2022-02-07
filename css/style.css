@@ -101,7 +101,7 @@ body {
 
 .modal-btn:hover,
 .modal-btn:focus {
-  background: #188ce8;
+  color: #188ce8;
 }
 
 /* Конец секции герой */
@@ -170,9 +170,6 @@ body {
   color: var(--text-and-background-color);
 }
 
-.contact-section {
-  font-family: var(--primary-font-family);
-}
 .contact {
   font-style: normal;
   font-weight: normal;
@@ -222,7 +219,7 @@ body {
 
 .button:hover,
 .button:focus {
-  background: #188ce8;
+  color: var(--primary-text-color-theme-light);
 }
 
 .button-list {
