@@ -10,6 +10,7 @@
 body {
   font-family: var(--primary-font-family);
   background: var(--text-and-background-color);
+  color: var(--primary-text-color-theme-light);
 }
 
 .list {
@@ -22,13 +23,7 @@ body {
 /* Шапка сайта */
 
 .header {
-  /* position: absolute;
-  width: 1600px;
-  height: 80px;
-  left: 0px;
-  top: 0px; */
 }
-
 .logo {
   font-family: var(--secondary-font-family);
   font-weight: 700;
@@ -75,11 +70,6 @@ body {
 /* Начало секции Герой */
 
 .hero {
-  /* position: absolute;
-width: 1600px;
-height: 60px;
-left: 0px;
-top: 80px; */
   background: #2f303a;
 }
 
@@ -87,7 +77,6 @@ top: 80px; */
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  /* or 136% */
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -99,7 +88,6 @@ top: 80px; */
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  /* identical to box height, or 187% */
   display: flex;
   align-items: center;
   text-align: center;
@@ -113,8 +101,7 @@ top: 80px; */
 
 .modal-btn:hover,
 .modal-btn:focus {
-  color: #188ce8;
-  /* color: #ffffff; */
+  background: #188ce8;
 }
 
 /* Конец секции герой */
@@ -126,11 +113,9 @@ top: 80px; */
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--primary-text-color-theme-light);
 }
 
 .text {
-  /* font-weight: 400; */
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -141,20 +126,13 @@ top: 80px; */
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
-  /* text-align: center; */
   letter-spacing: 0.03em;
-  color: var(--primary-text-color-theme-light);
 }
 
 /* Конец секци чем мы занимаемся  */
 /* Начало секции наша команда */
 
 .profession {
-  /* position: absolute;
-  width: 1600px;
-  height: 648px;
-  left: 0px;
-  top: 1449px; */
   background: #f5f4fa;
 }
 
@@ -162,26 +140,20 @@ top: 80px; */
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
-  /* text-align: center; */
   letter-spacing: 0.03em;
-  color: var(--primary-text-color-theme-light);
 }
 
 .employee {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
-  /* identical to box height */
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--primary-text-color-theme-light);
 }
 
 .employee-profession {
-  /* font-weight: 400; */
   font-size: 16px;
   line-height: 1.18;
-  /* identical to box height */
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color-theme-light);
@@ -191,19 +163,21 @@ top: 80px; */
 /* Начало подвала */
 
 .footer {
-  /* position: absolute;
-  width: 1600px;
-  height: 252px;
-  left: 0px;
-  top: 2097px; */
   background: #2f303a;
 }
 
+.footer-logo {
+  color: var(--text-and-background-color);
+}
+
+.contact-section {
+  font-family: var(--primary-font-family);
+}
 .contact {
-  /* font-weight: 400; */
+  font-style: normal;
+  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
-  /* or 171% */
   letter-spacing: 0.03em;
   color: var(--text-and-background-color);
 }
@@ -213,10 +187,10 @@ top: 80px; */
 }
 
 .сontact-information {
-  /* font-weight: 400; */
+  font-style: normal;
+  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
-  /* or 171% */
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
@@ -229,9 +203,6 @@ top: 80px; */
 /* Начало секции портфолио */
 
 .portfolio-section {
-  /* position: relative;
-  width: 1600px;
-  height: 1880px; */
 }
 
 /* Оформление кнопок */
@@ -240,7 +211,6 @@ top: 80px; */
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
-  /* identical to box height, or 162% */
   border-style: none;
   cursor: pointer;
   border-radius: 4px;
@@ -252,7 +222,7 @@ top: 80px; */
 
 .button:hover,
 .button:focus {
-  color: #000;
+  background: #188ce8;
 }
 
 .button-list {
@@ -260,13 +230,11 @@ top: 80px; */
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
-  /* identical to box height, or 162% */
   border-style: none;
   cursor: pointer;
   border-radius: 4px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--primary-text-color-theme-light);
   background: #f5f4fa;
 }
 
@@ -282,16 +250,13 @@ top: 80px; */
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
-  /* identical to box height, or 200% */
   letter-spacing: 0.06em;
   color: var(--primary-text-color-theme-light);
 }
 
 .tagline {
-  /* font-weight: 400; */
   font-size: 16px;
   line-height: 1.87;
-  /* identical to box height, or 187% */
   letter-spacing: 0.03em;
   color: var(--secondary-text-color-theme-light);
 }
