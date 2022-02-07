@@ -101,7 +101,7 @@ body {
 
 .modal-btn:hover,
 .modal-btn:focus {
-  color: #188ce8;
+  background: #188ce8;
 }
 
 /* Конец секции герой */
@@ -219,7 +219,7 @@ body {
 
 .button:hover,
 .button:focus {
-  color: var(--primary-text-color-theme-light);
+  background: #188ce8;
 }
 
 .button-list {
