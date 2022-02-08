@@ -187,24 +187,6 @@ body {
 
 /* КОНЕЦ СЕКЦИИ ПОДВАЛ, НАЧАЛО СЕКЦИИ ПОРТФОЛИО, КНОПКИ*/
 
-.button {
-  font-family: var(--primary-font-family);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-  border-style: none;
-  cursor: pointer;
-  border-radius: 4px;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--text-and-background-color);
-  background: var(--accent-collor);
-}
-.button:hover,
-.button:focus {
-  background: #188ce8;
-}
-
 .button-list {
   font-family: var(--primary-font-family);
   font-weight: 500;
@@ -216,10 +198,12 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   background: #f5f4fa;
+  color: var(--primary-text-color-theme-light);
 }
 .button-list:hover,
 .button-list:focus {
-  color: var(--accent-collor);
+  color: var(--text-and-background-color);
+  background: #188ce8;
 }
 
 /* КОНЕЦ СЕКЦИИ КНОПКИ, НАЧАЛО СЕКЦИИ ПРИМЕРЫ РАБОТ */
